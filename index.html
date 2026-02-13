@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Zayna Wasma | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <!-- ===== HEADER ===== -->
+    <!-- ===== HEADER ===== -->    
     <header class="navbar">
-        <div class="logo">&lt;DEV/&gt;</div>
+        <div class="nav-left">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </div>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav-center">
+            <span class="brand-name">Zayna Wasma</span>
+        </div>
 
-        <a href="assets/Your_Resume.pdf" target="_blank" class="resume-btn">Resume</a>
+        <div class="nav-right">
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
-
 
     <!-- ===== HERO SECTION ===== -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Hello, I'm Zayna Wasma</h1>
-            <h2>Aspiring AI Engineer / Data Analyst</h2>
-            <p>
-                Where curiosity meets data — I build intelligent systems
-                and uncover insights that drive meaningful decisions.
-            </p>
+        <div class="hero-inner">
+
+            <!-- floating image cards -->
+            <div class="hero-images">
+                <div class="hero-card hero-card-1"></div>
+                <div class="hero-card hero-card-2"></div>
+                <div class="hero-card hero-card-3"></div>
+                <div class="hero-card hero-card-4"></div>
+            </div>
+
+            <!-- main text -->
+            <div class="hero-text">
+                <p class="hero-intro">This is Zayna,</p>
+
+                <h1 class="hero-main">
+                    <span class="hero-role">AI Engineer &amp; <br> Data Scientist</span>
+                </h1>
+
+                <p class="hero-tagline">you can count on!</p>
+
+                <a href="assets/Zayna_Wasma_Resume.pdf" target="_blank" class="primary-btn">
+                    View Resume ↗
+                </a>
+            </div>
+
         </div>
     </section>
-
 
     <!-- ===== ABOUT SECTION ===== -->
     <section id="about" class="about">
@@ -106,8 +125,8 @@
                             <span>Pandas</span>
                             <span>Plotly</span>
                         </div>
-                        <a href="https://github.com/your-username/software-project-1"
-                           target="_blank" class="project-link">View on GitHub</a>
+                        <a href="https://github.com/your-username/software-project-1" target="_blank"
+                            class="project-link">View on GitHub</a>
                     </div>
                 </article>
 
@@ -127,8 +146,8 @@
                             <span>NumPy</span>
                             <span>Jupyter</span>
                         </div>
-                        <a href="https://github.com/your-username/software-project-2"
-                           target="_blank" class="project-link">View on GitHub</a>
+                        <a href="https://github.com/your-username/software-project-2" target="_blank"
+                            class="project-link">View on GitHub</a>
                     </div>
                 </article>
 
@@ -148,8 +167,8 @@
                             <span>REST APIs</span>
                             <span>SQL</span>
                         </div>
-                        <a href="https://github.com/your-username/software-project-3"
-                           target="_blank" class="project-link">View on GitHub</a>
+                        <a href="https://github.com/your-username/software-project-3" target="_blank"
+                            class="project-link">View on GitHub</a>
                     </div>
                 </article>
 
@@ -176,8 +195,8 @@
                             <span>C/C++</span>
                             <span>Serial Comms</span>
                         </div>
-                        <a href="https://github.com/your-username/hardware-project-1"
-                           target="_blank" class="project-link">View on GitHub</a>
+                        <a href="https://github.com/your-username/hardware-project-1" target="_blank"
+                            class="project-link">View on GitHub</a>
                     </div>
                 </article>
 
@@ -197,8 +216,8 @@
                             <span>Python</span>
                             <span>GPIO</span>
                         </div>
-                        <a href="https://github.com/your-username/hardware-project-2"
-                           target="_blank" class="project-link">View on GitHub</a>
+                        <a href="https://github.com/your-username/hardware-project-2" target="_blank"
+                            class="project-link">View on GitHub</a>
                     </div>
                 </article>
 
@@ -218,8 +237,8 @@
                             <span>MQTT</span>
                             <span>Cloud</span>
                         </div>
-                        <a href="https://github.com/your-username/hardware-project-3"
-                           target="_blank" class="project-link">View on GitHub</a>
+                        <a href="https://github.com/your-username/hardware-project-3" target="_blank"
+                            class="project-link">View on GitHub</a>
                     </div>
                 </article>
 
@@ -228,8 +247,7 @@
 
             <!-- === GITHUB LINK === -->
             <div class="projects-footer">
-                <a href="https://github.com/heyitszayna"
-                   target="_blank" class="github-btn">
+                <a href="https://github.com/heyitszayna" target="_blank" class="github-btn">
                     View more projects on GitHub
                 </a>
             </div>
@@ -301,7 +319,7 @@
         </div>
     </section>
 
-        <!-- ===== CONTACT / CONNECT SECTION ===== -->
+    <!-- ===== CONTACT / CONNECT SECTION ===== -->
     <section id="contact" class="contact">
         <div class="contact-inner">
 
@@ -324,15 +342,13 @@
                         </li>
                         <li>
                             <span class="contact-icon">💼</span>
-                            <a href="https://www.linkedin.com/in/zayna-wasma/"
-                               target="_blank">
+                            <a href="https://www.linkedin.com/in/zayna-wasma/" target="_blank">
                                 linkedin.com/in/zayna-wasma
                             </a>
                         </li>
                         <li>
                             <span class="contact-icon">🐙</span>
-                            <a href="https://github.com/heyitszayna"
-                               target="_blank">
+                            <a href="https://github.com/heyitszayna" target="_blank">
                                 github.com/heyitszayna
                             </a>
                         </li>
@@ -364,4 +380,5 @@
     </footer>
 
 </body>
+
 </html>
