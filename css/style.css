@@ -142,3 +142,148 @@ body {
     color: #d1c4ff;
     font-size: 14px;
 }
+
+/* ===== PROJECTS / FEATURED WORKS ===== */
+.projects {
+    padding: 100px 20px 120px;
+    background-color: #0a0a0a; /* keep dark theme */
+}
+
+.projects-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #c2d4ff;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    color: #b3b3d1;
+    font-size: 18px;
+}
+
+/* category heading (Software / Hardware) */
+.projects-category {
+    margin: 40px 0 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #d0c4ff;
+}
+
+/* grid layout for cards */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+/* individual project card */
+.project-card {
+    background: #190b26;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+/* image area */
+.project-image {
+    width: 100%;
+    height: 180px;
+    background: #261237;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* text area */
+.project-body {
+    padding: 18px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-body h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e2e6ff;
+}
+
+.project-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #c7c7e0;
+}
+
+/* tools / stack tags */
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.project-tags span {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background-color: #2a163f;
+    color: #e0d5ff;
+}
+
+/* GitHub link inside card */
+.project-link {
+    margin-top: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #9fa8ff;
+    font-weight: 500;
+    align-self: flex-start;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.project-link:hover {
+    color: #d0c4ff;
+    border-color: #d0c4ff;
+}
+
+/* bottom GitHub button */
+.projects-footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.github-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    border: 1px solid #9f7bff;
+    color: #e6ddff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s, transform 0.1s;
+}
+
+.github-btn:hover {
+    background-color: #9f7bff;
+    color: #0a0a0a;
+    transform: translateY(-1px);
+}
